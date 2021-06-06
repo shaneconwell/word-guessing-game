@@ -1,0 +1,134 @@
+:root{
+  --colorOne: #10293F;
+  --colorTwo: radial-gradient(#f0e589, #ddbc8d);
+}
+
+body{
+  background-size: cover;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 100;
+ 
+  
+}
+main{
+  display: flex;
+  /* background: var(--colorOne); */
+  background: linear-gradient(0deg, var(--colorOne) 30%, rgba(255,255,255,1) 100%);
+  position: relative;
+  height: 700px;
+  padding-bottom: 900px;
+  
+
+
+}
+aside{
+  flex-basis: 40%;
+  background: var(--colorTwo);
+  margin:10px;
+
+}
+
+section{
+  flex-basis: 60%;
+}
+header{
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: var(--colorOne);
+  background-size: auto;
+}
+.header-container {
+  width: 100%;
+  text-align: center;
+}
+
+.welcome {
+  color: white;
+  font-size: 50px;
+  margin: 15px;
+}
+#startButton{
+  font-size: 30px;
+}
+
+
+#win-lossCounter{
+  margin-top: 65px;
+  margin-left: 30px;
+  font-size: 1.5rem;
+  font-weight:bold;
+}
+#timer{
+  position:relative;
+  background-color: var(--colorOne);
+  height: 360px;
+  margin: 20px;
+  text-align: center;
+  color:white;
+  border-radius: 10px;
+}
+
+#countdownNum{
+  padding-top: 120px;
+  font-size: 70px;
+}
+
+#countdownWords{
+  margin-top: -40px;
+  font-size: 20px;
+}
+
+
+#resetScoreButton{
+  position: relative;
+  float: right;
+  margin-right: 30px;
+  margin-top: -4.2em;
+  font-size: 20px;
+  
+  
+}
+#words {
+  font-size: 80px;
+  text-align: center;
+  margin: 100px;
+  margin-top: 270px;
+  color: #10293F;
+  height: 100px;
+  
+}
+
+
+
+#displaySection{
+  margin:50px;
+  background: var(--colorTwo);
+  border: 7px solid white;
+  border-radius: 10px;
+}
+
+.btn-grad {
+  background-image: linear-gradient(to right, #F09819 0%, #EDDE5D  51%, #F09819  100%)
+}
+  
+button{
+  padding: 10px 60px;
+
+}  
+.btn-grad {
+     
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: black;            
+  box-shadow: 0 0 20px rgba(255,255,255,0.25);
+  border-radius: 10px;
+  
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
